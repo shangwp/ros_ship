@@ -1,0 +1,1611 @@
+[rosmaster.main][INFO] 2021-05-09 10:49:46,477: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-05-09 10:49:46,477: Starting ROS Master Node
+[xmlrpc][INFO] 2021-05-09 10:49:46,477: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-05-09 10:49:46,478: Started XML-RPC server [http://shang:11311/]
+[rosmaster.master][INFO] 2021-05-09 10:49:46,478: Master initialized: port[11311], uri[http://shang:11311/]
+[xmlrpc][INFO] 2021-05-09 10:49:46,478: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-05-09 10:49:46,502: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:49:46,503: +PARAM [/roslaunch/uris/host_shang__36515] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:49:46,591: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:49:46,591: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:49:46,637: +SERVICE [/rosout/get_loggers] /rosout http://shang:40781/
+[rosmaster.master][INFO] 2021-05-09 10:49:46,638: +SERVICE [/rosout/set_logger_level] /rosout http://shang:40781/
+[rosmaster.master][INFO] 2021-05-09 10:49:46,639: +PUB [/rosout_agg] /rosout http://shang:40781/
+[rosmaster.master][INFO] 2021-05-09 10:49:46,642: +SUB [/rosout] /rosout http://shang:40781/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,311: +PARAM [/roslaunch/uris/host_shang__38123] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/wam_v/ship_controller/right_motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/object_recognition_node/input_cloud] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/wam_v/left_driving_force_controller/gradient_descent/tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/wam_v/ship_controller/angular/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/robot_pose_ekf/imu_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,318: +PARAM [/robot_pose_ekf/odom_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/left_driving_force_controller/propeller/fluid_density] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/left_driving_force_controller/propeller/turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/left_driving_force_controller/propeller/k1] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/robot_pose_ekf/sensor_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/ship_controller/left_motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/google_static_map_api_key] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/right_driving_force_controller/max_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/ship_controller/left_motor_joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/object_recognition_node/target_objects/buoy/stl_filename] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,319: +PARAM [/wam_v/left_driving_force_controller/motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/right_motor_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/ship_controller/angular/min_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/right_driving_force_controller/propeller/turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/right_driving_force_controller/propeller/fluid_density] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/right_driving_force_controller/motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/ship_controller/izz] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/right_driving_force_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/left_driving_force_controller/max_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,320: +PARAM [/wam_v/ship_controller/mass] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/ship_controller/motor_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/left_driving_force_controller/driving_force_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/right_motor_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/left_driving_force_controller/characteristic_curve_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/ship_controller/linear/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/right_motor_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/left_driving_force_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/ship_controller/linear/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/robot_pose_ekf/vo_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/ship_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,321: +PARAM [/wam_v/right_motor_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/water_surface_height] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/ship_controller/right_motor_joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/left_driving_force_controller/propeller/k2] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/right_driving_force_controller/min_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/left_driving_force_controller/propeller/k0] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/left_driving_force_controller/min_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/wam_v/right_driving_force_controller/driving_force_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,322: +PARAM [/object_recognition_node/target_objects/buoy/marker_filename] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/left_driving_force_controller/gradient_descent/alpha] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/left_motor_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/left_motor_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/ship_controller/linear/min_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/left_motor_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/wam_v/left_motor_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,323: +PARAM [/robot_pose_ekf/output_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/left_motor_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/ship_controller/linear/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/gradient_descent/alpha] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/ship_controller/linear/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/left_driving_force_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/geographic_map_server_node/osm_filepath] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/utm_odometry_node/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/ship_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/robot_pose_ekf/debug] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/robot_pose_ekf/self_diagnose] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/propeller/k1] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/propeller/k0] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/propeller/k2] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/characteristic_curve_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,324: +PARAM [/wam_v/right_driving_force_controller/gradient_descent/tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,325: +PARAM [/wam_v/right_driving_force_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,325: +PARAM [/wam_v/right_motor_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,325: +PARAM [/robot_pose_ekf/freq] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,325: +PARAM [/wam_v/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:50:10,614: +PUB [/rosout] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,615: +SERVICE [/utm_odometry_node/get_loggers] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,624: +SERVICE [/utm_odometry_node/set_logger_level] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,634: +SUB [/clock] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,635: +PUB [/rosout] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,643: +PUB [/rosout] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,645: +SERVICE [/wam_v/robot_state_publisher/get_loggers] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,660: +SERVICE [/robot_pose_ekf/get_loggers] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,664: +SERVICE [/wam_v/robot_state_publisher/set_logger_level] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,677: +SERVICE [/robot_pose_ekf/set_logger_level] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,681: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/']
+[rosmaster.master][INFO] 2021-05-09 10:50:10,690: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:10,706: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/']
+[rosmaster.master][INFO] 2021-05-09 10:50:10,712: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:10,712: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/']
+[rosmaster.master][INFO] 2021-05-09 10:50:10,715: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:10,735: +PUB [/rosout] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,743: +SERVICE [/geographic_map_server_node/get_loggers] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,748: +PUB [/gps_odom] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,750: +SERVICE [/geographic_map_server_node/set_logger_level] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,788: +SUB [/clock] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,789: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/']
+[rosmaster.master][INFO] 2021-05-09 10:50:10,790: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:10,815: +SUB [/clock] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,824: +SUB [/fix] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,841: +PUB [/tf] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,844: +PUB [/tf_static] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,848: +SUB [/clock] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,855: +SUB [/tf] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,925: +SUB [/tf_static] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,940: +PUB [/tf] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,960: +SUB [/wam_v/joint_states] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:50:10,994: publisherUpdate[/tf] -> http://shang:34957/ ['http://shang:32813/', 'http://shang:34957/']
+[rosmaster.master][INFO] 2021-05-09 10:50:10,996: publisherUpdate[/tf] -> http://shang:34957/ ['http://shang:32813/', 'http://shang:34957/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,024: +PUB [/robot_pose_ekf/odom_combined] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,041: +SUB [/imu] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,052: +SUB [/gps_odom] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,053: +SERVICE [/robot_pose_ekf/get_status] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,111: +SUB [/fix_velocity] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,118: +SUB [/fix] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,191: +PUB [/rosout] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,192: +SERVICE [/object_recognition_node/get_loggers] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,193: +SERVICE [/object_recognition_node/set_logger_level] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,195: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/']
+[rosmaster.master][INFO] 2021-05-09 10:50:11,197: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,213: +SUB [/clock] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,252: +PUB [/rosout] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,253: +SERVICE [/rviz/get_loggers] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,256: +SERVICE [/rviz/set_logger_level] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,281: +SUB [/clock] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,297: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/']
+[rosmaster.master][INFO] 2021-05-09 10:50:11,298: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,332: +PUB [/rosout] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,339: +SUB [/clock] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,343: +SERVICE [/cmd_pub_left/get_loggers] /cmd_pub_left http://shang:46023/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,345: +PUB [/rosout] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,352: +SERVICE [/cmd_pub_left/set_logger_level] /cmd_pub_left http://shang:46023/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,354: +SERVICE [/wam_v/controller_spawner/get_loggers] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,355: +SERVICE [/cmd_pub_right/get_loggers] /cmd_pub_right http://shang:41393/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,357: +SERVICE [/wam_v/controller_spawner/set_logger_level] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,358: +PUB [/wam_v/ship_controller/left_driving_force] /cmd_pub_left http://shang:46023/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,360: +SUB [/clock] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,362: +SERVICE [/cmd_pub_right/set_logger_level] /cmd_pub_right http://shang:41393/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,368: +PUB [/wam_v/ship_controller/right_driving_force] /cmd_pub_right http://shang:41393/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,370: +SERVICE [/kml_plotter_node/get_loggers] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,372: +SERVICE [/kml_plotter_node/set_logger_level] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,398: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/']
+[rosmaster.master][INFO] 2021-05-09 10:50:11,399: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,399: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/']
+[rosmaster.master][INFO] 2021-05-09 10:50:11,399: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,514: +SUB [/fix] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,535: +PUB [/object_recognition_node/detected_objects] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,536: +PUB [/object_recognition_node/detected_objects/marker] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,543: +SUB [/velodyne_points] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,781: +SUB [/tf] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,798: +SUB [/tf_static] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,916: +PUB [/rosout] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,917: +SERVICE [/gazebo/get_loggers] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,918: +SERVICE [/gazebo/set_logger_level] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,927: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:11,928: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:11,931: +PUB [/rosout] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,938: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,941: +PUB [/initialpose] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,942: +SUB [/clock] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,943: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,944: +PUB [/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:11,953: +SUB [/clock] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,003: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,004: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,132: +PUB [/rosout] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,136: +SUB [/clock] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,138: +SERVICE [/plot_characteristic_curve_node/get_loggers] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,139: +SERVICE [/plot_characteristic_curve_node/set_logger_level] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,143: +PUB [/rosout] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,149: +PUB [/rosout] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,154: +SUB [/clock] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,156: +SUB [/clock] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,158: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,161: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,163: +SERVICE [/red_buoy_01/buoy_spawner_red_01/get_loggers] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,165: +SERVICE [/red_buoy_01/buoy_spawner_red_01/set_logger_level] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,204: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,204: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,205: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,206: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,207: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/', 'http://shang:35193/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,207: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/', 'http://shang:35193/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,237: +SERVICE [/plot_characteristic_curve] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,462: +PUB [/clock] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,463: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,465: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,466: +SERVICE [/gazebo/delete_model] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,468: +SERVICE [/gazebo/delete_light] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,469: +SERVICE [/gazebo/get_model_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,471: +SERVICE [/gazebo/get_model_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,472: +SERVICE [/gazebo/get_world_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,476: +SERVICE [/gazebo/get_joint_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,477: +SERVICE [/gazebo/get_link_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,479: +SERVICE [/gazebo/get_link_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,484: +SERVICE [/gazebo/get_light_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,491: +SERVICE [/gazebo/set_light_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,497: +SERVICE [/gazebo/get_physics_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,500: +PUB [/gazebo/link_states] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,501: +PUB [/gazebo/model_states] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,502: +SERVICE [/gazebo/set_link_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,503: +SERVICE [/gazebo/set_physics_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,505: +SERVICE [/gazebo/set_model_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,505: publisherUpdate[/clock] -> http://shang:46487/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,509: +SERVICE [/gazebo/set_model_configuration] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,509: publisherUpdate[/clock] -> http://shang:32813/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,511: +SERVICE [/gazebo/set_joint_properties] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,512: publisherUpdate[/clock] -> http://shang:46487/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,512: publisherUpdate[/clock] -> http://shang:34957/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,513: publisherUpdate[/clock] -> http://shang:32813/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,514: publisherUpdate[/clock] -> http://shang:35195/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,515: publisherUpdate[/clock] -> http://shang:34957/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,516: publisherUpdate[/clock] -> http://shang:38471/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,516: publisherUpdate[/clock] -> http://shang:35195/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,517: publisherUpdate[/clock] -> http://shang:38471/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,517: publisherUpdate[/clock] -> http://shang:37715/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,517: publisherUpdate[/clock] -> http://shang:38271/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,519: publisherUpdate[/clock] -> http://shang:37715/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,520: publisherUpdate[/clock] -> http://shang:43333/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,524: publisherUpdate[/clock] -> http://shang:38271/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,524: publisherUpdate[/clock] -> http://shang:43991/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,525: publisherUpdate[/clock] -> http://shang:43991/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,525: publisherUpdate[/clock] -> http://shang:35083/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,526: +SERVICE [/gazebo/set_link_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,527: publisherUpdate[/clock] -> http://shang:43333/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,527: publisherUpdate[/clock] -> http://shang:35083/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,530: publisherUpdate[/clock] -> http://shang:45887/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,530: publisherUpdate[/clock] -> http://shang:36613/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,531: publisherUpdate[/clock] -> http://shang:35193/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,531: +SERVICE [/gazebo/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,533: publisherUpdate[/clock] -> http://shang:45887/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,535: publisherUpdate[/clock] -> http://shang:36613/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,539: publisherUpdate[/clock] -> http://shang:35193/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:12,543: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,548: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,552: +SUB [/gazebo/set_link_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,556: +PUB [/gazebo/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,557: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,564: +SUB [/gazebo/set_model_state] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,566: +PUB [/gazebo/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,572: +SERVICE [/gazebo/pause_physics] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,577: +SERVICE [/gazebo/unpause_physics] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,582: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,599: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,611: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,629: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,632: +SERVICE [/gazebo/reset_simulation] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,636: +SERVICE [/gazebo/reset_world] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,659: -SUB [/clock] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,663: -PUB [/rosout] /red_buoy_01/buoy_spawner_red_01 http://shang:35193/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,664: -SERVICE [/red_buoy_01/buoy_spawner_red_01/get_loggers] /red_buoy_01/buoy_spawner_red_01 rosrpc://shang:34101
+[rosmaster.master][INFO] 2021-05-09 10:50:12,664: -SERVICE [/red_buoy_01/buoy_spawner_red_01/set_logger_level] /red_buoy_01/buoy_spawner_red_01 rosrpc://shang:34101
+[rosmaster.master][INFO] 2021-05-09 10:50:12,665: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,672: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,674: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,676: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,677: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,679: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,680: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,681: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,682: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,683: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,685: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,687: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,689: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,690: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,692: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,693: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,695: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,696: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,696: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,697: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,698: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,700: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,700: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,704: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,706: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,707: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,710: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,710: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:50:12,718: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,721: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:12,734: +PUB [/top_link/bounding_box] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,735: +PUB [/top_link/buoyancy] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:12,741: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']
+[rosmaster.master][INFO] 2021-05-09 10:50:12,742: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:38271/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:50:13,345: +SERVICE [/wam_v/camera/front/set_camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,392: +SERVICE [/wam_v/camera/left/set_camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,396: +SERVICE [/wam_v/camera/front/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,398: +SERVICE [/wam_v/camera/rear/set_camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,401: +PUB [/wam_v/camera/front/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,404: +PUB [/wam_v/camera/front/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,406: +SERVICE [/wam_v/camera/left/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,408: +PUB [/wam_v/camera/left/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,410: +PARAM [/wam_v/camera/front/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,412: +PUB [/wam_v/camera/left/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,416: +PARAM [/wam_v/camera/front/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,416: +SERVICE [/wam_v/camera/rear/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,420: +PUB [/wam_v/camera/rear/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,421: +PARAM [/wam_v/camera/left/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,423: +PARAM [/wam_v/camera/left/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,423: +PUB [/wam_v/camera/rear/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,426: +SERVICE [/wam_v/camera/right/set_camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,433: +SERVICE [/wam_v/camera/right/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,434: +PARAM [/wam_v/camera/rear/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,435: +PUB [/wam_v/camera/right/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,436: +PARAM [/wam_v/camera/rear/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,437: +PUB [/wam_v/camera/right/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,442: +PARAM [/wam_v/camera/right/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,443: +PARAM [/wam_v/camera/right/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,505: +PUB [/wam_v/camera/front/image_raw/compressedDepth] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,506: +PUB [/wam_v/camera/left/image_raw/compressedDepth] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,508: +PUB [/wam_v/camera/rear/image_raw/compressedDepth] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,508: +PUB [/wam_v/camera/right/image_raw/compressedDepth] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,509: +SERVICE [/wam_v/camera/front/image_raw/compressedDepth/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,511: +SERVICE [/wam_v/camera/rear/image_raw/compressedDepth/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,512: +PUB [/wam_v/camera/front/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,513: +PUB [/wam_v/camera/rear/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,514: +PUB [/wam_v/camera/front/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,515: +SERVICE [/wam_v/camera/right/image_raw/compressedDepth/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,516: +PUB [/wam_v/camera/rear/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,517: +PUB [/wam_v/camera/right/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,518: +SERVICE [/wam_v/camera/left/image_raw/compressedDepth/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,521: +PUB [/wam_v/camera/right/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,525: +PUB [/wam_v/camera/left/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,529: +PUB [/wam_v/camera/left/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,544: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,550: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,551: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,552: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,555: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,556: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,562: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,563: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,565: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,566: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,568: +PUB [/wam_v/camera/rear/image_raw/compressed] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,569: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,572: +SERVICE [/wam_v/camera/rear/image_raw/compressed/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,576: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,577: +PUB [/wam_v/camera/rear/image_raw/compressed/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,578: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,580: +PUB [/wam_v/camera/rear/image_raw/compressed/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,597: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,600: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,602: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,603: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,604: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,605: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,610: +PUB [/wam_v/camera/front/image_raw/compressed] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,611: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,612: +SERVICE [/wam_v/camera/front/image_raw/compressed/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,613: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,620: +PUB [/wam_v/camera/front/image_raw/compressed/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,621: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,622: +PUB [/wam_v/camera/front/image_raw/compressed/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,623: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,626: +PUB [/wam_v/camera/left/image_raw/compressed] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,628: +SERVICE [/wam_v/camera/left/image_raw/compressed/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,629: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,635: +PARAM [/wam_v/camera/rear/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,636: +PUB [/wam_v/camera/right/image_raw/compressed] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,637: +PUB [/wam_v/camera/left/image_raw/compressed/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,638: +PARAM [/wam_v/camera/rear/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,641: +SERVICE [/wam_v/camera/right/image_raw/compressed/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,645: +PUB [/wam_v/camera/left/image_raw/compressed/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,646: +PARAM [/wam_v/camera/rear/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,648: +PARAM [/wam_v/camera/rear/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,646: +PUB [/wam_v/camera/right/image_raw/compressed/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,650: +PARAM [/wam_v/camera/rear/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,651: +PUB [/wam_v/camera/right/image_raw/compressed/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,652: +PARAM [/wam_v/camera/rear/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,657: +PARAM [/wam_v/camera/front/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,660: +PARAM [/wam_v/camera/left/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,661: +PARAM [/wam_v/camera/front/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,662: +PUB [/wam_v/camera/rear/image_raw] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,664: +PARAM [/wam_v/camera/front/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,665: +PARAM [/wam_v/camera/front/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,668: +PUB [/wam_v/camera/rear/image_raw/theora] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,669: +PARAM [/wam_v/camera/front/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,670: +SERVICE [/wam_v/camera/rear/image_raw/theora/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,671: +PARAM [/wam_v/camera/front/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,675: +PUB [/wam_v/camera/rear/image_raw/theora/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,677: +PUB [/wam_v/camera/front/image_raw] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,678: +PUB [/wam_v/camera/rear/image_raw/theora/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,679: +PUB [/wam_v/camera/front/image_raw/theora] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,681: +SERVICE [/wam_v/camera/front/image_raw/theora/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,683: +PUB [/wam_v/camera/front/image_raw/theora/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,676: +PARAM [/wam_v/camera/right/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,685: +PUB [/wam_v/camera/front/image_raw/theora/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,691: +PARAM [/wam_v/camera/left/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,692: +PARAM [/wam_v/camera/left/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,693: +PARAM [/wam_v/camera/left/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,694: +PARAM [/wam_v/camera/right/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,695: +PARAM [/wam_v/camera/rear/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,696: +PARAM [/wam_v/camera/front/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,697: +PARAM [/wam_v/camera/front/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,697: +PARAM [/wam_v/camera/right/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,698: +PARAM [/wam_v/camera/rear/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,699: +PARAM [/wam_v/camera/left/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,700: +PARAM [/wam_v/camera/left/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,701: +PUB [/wam_v/camera/left/image_raw] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,702: +PUB [/wam_v/camera/left/image_raw/theora] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,703: +PARAM [/wam_v/camera/right/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,704: +SERVICE [/wam_v/camera/left/image_raw/theora/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,707: +PARAM [/wam_v/camera/rear/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,708: +PUB [/wam_v/camera/left/image_raw/theora/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,709: +PARAM [/wam_v/camera/front/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,711: +PARAM [/wam_v/camera/front/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,712: +PARAM [/wam_v/camera/front/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,713: +PARAM [/wam_v/camera/front/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,710: +PUB [/wam_v/camera/left/image_raw/theora/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,714: +PARAM [/wam_v/camera/front/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,716: +PARAM [/wam_v/camera/front/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,718: +PUB [/wam_v/camera/front/camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,720: +PARAM [/wam_v/camera/rear/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,721: +PARAM [/wam_v/camera/rear/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,723: +PARAM [/wam_v/camera/rear/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,724: +PARAM [/wam_v/camera/rear/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,725: +PARAM [/wam_v/camera/rear/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,726: +PUB [/wam_v/camera/rear/camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,727: +PARAM [/wam_v/camera/right/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,728: +PARAM [/wam_v/camera/right/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,729: +PARAM [/wam_v/camera/left/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,729: +PUB [/wam_v/camera/right/image_raw] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,730: +PARAM [/wam_v/camera/left/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,731: +PUB [/wam_v/camera/right/image_raw/theora] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,732: +PARAM [/wam_v/camera/left/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,733: +SERVICE [/wam_v/camera/right/image_raw/theora/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,734: +PARAM [/wam_v/camera/left/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,735: +PUB [/wam_v/camera/right/image_raw/theora/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,736: +PARAM [/wam_v/camera/left/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,737: +PUB [/wam_v/camera/right/image_raw/theora/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,738: +PARAM [/wam_v/camera/left/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,739: +PARAM [/wam_v/camera/left/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,744: +PARAM [/wam_v/camera/left/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,746: +PUB [/wam_v/camera/left/camera_info] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:13,749: +PARAM [/wam_v/camera/right/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,751: +PARAM [/wam_v/camera/right/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,752: +PARAM [/wam_v/camera/right/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,752: +PARAM [/wam_v/camera/right/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,753: +PARAM [/wam_v/camera/right/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,754: +PARAM [/wam_v/camera/right/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,755: +PARAM [/wam_v/camera/right/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,756: +PARAM [/wam_v/camera/right/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:50:13,757: +PUB [/wam_v/camera/right/camera_info] /gazebo http://shang:43991/
+[rosmaster.master][ERROR] 2021-05-09 10:50:14,483: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2021-05-09 10:50:14,485: +PUB [/scan] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,753: +SUB [/left_motor/driving_force] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,757: +SUB [/right_motor/driving_force] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,761: +SUB [/robot_pose_ekf/odom_combined] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,768: +SUB [/wam_v/camera/front/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,774: +SUB [/wam_v/camera/left/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,780: +SUB [/wam_v/camera/right/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,785: +SUB [/wam_v/camera/rear/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,791: +SUB [/velodyne_points] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,797: +SUB [/scan] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,800: +SUB [/visualization_marker_array] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,802: -SUB [/visualization_marker_array] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,805: +SUB [/object_recognition_node/detected_objects/marker] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,811: -PUB [/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,812: -PUB [/initialpose] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,816: +PUB [/initialpose] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,818: +PUB [/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,819: +PUB [/move_base_simple/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,819: -PUB [/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,820: +PUB [/clicked_point] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:16,867: +SERVICE [/rviz/reload_shaders] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:50:41,376: -SUB [/clock] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:41,376: -PUB [/rosout] /wam_v/controller_spawner http://shang:38271/
+[rosmaster.master][INFO] 2021-05-09 10:50:41,377: -SERVICE [/wam_v/controller_spawner/get_loggers] /wam_v/controller_spawner rosrpc://shang:35649
+[rosmaster.master][INFO] 2021-05-09 10:50:41,377: -SERVICE [/wam_v/controller_spawner/set_logger_level] /wam_v/controller_spawner rosrpc://shang:35649
+[rosmaster.master][INFO] 2021-05-09 10:50:41,409: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']
+[rosmaster.master][INFO] 2021-05-09 10:50:41,411: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:36613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:21,596: +SERVICE [/rostopic_4244_1620528681217/get_loggers] /rostopic_4244_1620528681217 http://shang:36953/
+[rosmaster.master][INFO] 2021-05-09 10:51:21,601: +SERVICE [/rostopic_4244_1620528681217/set_logger_level] /rostopic_4244_1620528681217 http://shang:36953/
+[rosmaster.master][INFO] 2021-05-09 10:51:21,608: +PUB [/wam_v/twist] /rostopic_4244_1620528681217 http://shang:36953/
+[rosmaster.master][INFO] 2021-05-09 10:51:26,938: -SUB [/clock] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:51:26,939: -PUB [/rosout] /urdf_spawner http://shang:36613/
+[rosmaster.master][INFO] 2021-05-09 10:51:26,940: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/']
+[rosmaster.master][INFO] 2021-05-09 10:51:26,940: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://shang:37921
+[rosmaster.master][INFO] 2021-05-09 10:51:26,943: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://shang:37921
+[rosmaster.master][INFO] 2021-05-09 10:51:26,943: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:26,944: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,948: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,945: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,950: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,955: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,958: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,961: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,967: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,970: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,974: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,975: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,976: +PUB [/velodyne_points] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:26,978: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,982: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,985: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,987: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,988: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,988: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,992: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:26,994: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:26,998: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:27,000: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,001: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:27,006: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,008: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:27,008: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,020: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,021: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,022: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,023: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:27,024: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:51:27,026: publisherUpdate[/velodyne_points] -> http://shang:38471/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:27,027: publisherUpdate[/velodyne_points] -> http://shang:38471/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:27,028: publisherUpdate[/velodyne_points] -> http://shang:37715/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:27,030: publisherUpdate[/velodyne_points] -> http://shang:37715/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,268: +SERVICE [/wam_v/controller_manager/list_controllers] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,270: +SERVICE [/wam_v/controller_manager/list_controller_types] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,271: +SERVICE [/wam_v/controller_manager/load_controller] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,273: +SERVICE [/wam_v/controller_manager/unload_controller] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,274: +SERVICE [/wam_v/controller_manager/switch_controller] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,276: +SERVICE [/wam_v/controller_manager/reload_controller_libraries] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,295: +PUB [/right_bbox/base_footprint/bounding_box] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,296: +PUB [/right_bbox/base_footprint/buoyancy] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,302: +PUB [/left_bbox/base_footprint/bounding_box] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,305: +PUB [/left_bbox/base_footprint/buoyancy] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,312: +PUB [/right_motor/bounding_box] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,314: +PUB [/right_motor/buoyancy] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,321: +PUB [/left_motor/bounding_box] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,327: +PUB [/left_motor/buoyancy] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,350: +PUB [/fix] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,352: +PUB [/fix_velocity] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,353: publisherUpdate[/fix] -> http://shang:46487/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,354: publisherUpdate[/fix] -> http://shang:35195/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,359: publisherUpdate[/fix] -> http://shang:46487/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,360: publisherUpdate[/fix] -> http://shang:43333/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,362: publisherUpdate[/fix] -> http://shang:35195/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,362: publisherUpdate[/fix_velocity] -> http://shang:35195/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,364: publisherUpdate[/fix_velocity] -> http://shang:35195/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,367: publisherUpdate[/fix] -> http://shang:43333/ ['http://shang:43991/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,368: +SERVICE [/fix/position/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,373: +PUB [/fix/position/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,375: +PUB [/fix/position/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,386: +PARAM [/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,392: +PARAM [/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,394: +PARAM [/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,396: +PARAM [/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,399: +PARAM [/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,401: +SERVICE [/fix/velocity/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,404: +PUB [/fix/velocity/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,409: +PUB [/fix/velocity/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,423: +PARAM [/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,425: +PARAM [/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,427: +PARAM [/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,429: +PARAM [/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,431: +PARAM [/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,433: +SERVICE [/fix/status/set_parameters] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,435: +PUB [/fix/status/parameter_descriptions] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,437: +PUB [/fix/status/parameter_updates] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,451: +PARAM [/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,453: +PARAM [/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,458: +PARAM [/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,460: +PARAM [/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,463: +PARAM [/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,465: +PARAM [/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,467: +PARAM [/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,469: +PARAM [/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,472: +PARAM [/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,475: +PARAM [/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,478: +PARAM [/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,480: +PARAM [/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,481: +PARAM [/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,484: +PARAM [/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,487: +PARAM [/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,490: +PARAM [/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,493: +PARAM [/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,498: +PARAM [/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,503: +PARAM [/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,507: +PARAM [/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,510: +PARAM [/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,513: +PARAM [/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,519: +PARAM [/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,522: +PARAM [/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:51:36,548: +PUB [/nmea_sentence] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,581: +PUB [/left_motor/driving_force] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,595: +PUB [/right_motor/driving_force] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,629: +PUB [/imu] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,632: +SERVICE [/imu_service] /gazebo http://shang:43991/
+[rosmaster.master][INFO] 2021-05-09 10:51:36,668: publisherUpdate[/left_motor/driving_force] -> http://shang:37715/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,669: publisherUpdate[/imu] -> http://shang:34957/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,669: publisherUpdate[/left_motor/driving_force] -> http://shang:37715/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,670: publisherUpdate[/imu] -> http://shang:34957/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:36,670: publisherUpdate[/right_motor/driving_force] -> http://shang:37715/ ['http://shang:43991/']
+[rosmaster.master][INFO] 2021-05-09 10:51:36,671: publisherUpdate[/right_motor/driving_force] -> http://shang:37715/ ['http://shang:43991/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:51:46,809: +SERVICE [/rostopic_4597_1620528706505/get_loggers] /rostopic_4597_1620528706505 http://shang:41589/
+[rosmaster.master][INFO] 2021-05-09 10:51:46,811: +SERVICE [/rostopic_4597_1620528706505/set_logger_level] /rostopic_4597_1620528706505 http://shang:41589/
+[rosmaster.master][INFO] 2021-05-09 10:51:46,814: +PUB [/wam_v/ship_controller/right_driving_force] /rostopic_4597_1620528706505 http://shang:41589/
+[rosmaster.master][INFO] 2021-05-09 10:57:53,345: +PUB [/rosout] /rostopic_5129_1620529073049 http://shang:34423/
+[rosmaster.master][INFO] 2021-05-09 10:57:53,358: +SUB [/clock] /rostopic_5129_1620529073049 http://shang:34423/
+[rosmaster.master][INFO] 2021-05-09 10:57:53,363: +SERVICE [/rostopic_5129_1620529073049/get_loggers] /rostopic_5129_1620529073049 http://shang:34423/
+[rosmaster.master][INFO] 2021-05-09 10:57:53,366: +SERVICE [/rostopic_5129_1620529073049/set_logger_level] /rostopic_5129_1620529073049 http://shang:34423/
+[rosmaster.master][INFO] 2021-05-09 10:57:53,417: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:57:53,420: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:35083/', 'http://shang:45887/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:57:53,421: +SUB [/gps_odom] /rostopic_5129_1620529073049 http://shang:34423/
+[rosmaster.master][INFO] 2021-05-09 10:58:15,170: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:58:15,172: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:58:15,174: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://shang:49055
+[rosmaster.master][INFO] 2021-05-09 10:58:15,380: -PUB [/rosout] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:58:15,382: -SUB [/clock] /gazebo_gui http://shang:35083/
+[rosmaster.master][INFO] 2021-05-09 10:58:15,385: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://shang:49055
+[rosmaster.master][INFO] 2021-05-09 10:58:15,387: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://shang:49055
+[rosmaster.master][INFO] 2021-05-09 10:58:15,458: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:45887/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:15,459: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43333/', 'http://shang:43991/', 'http://shang:45887/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,102: -SUB [/clock] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,103: -SUB [/fix] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,103: -PUB [/rosout] /kml_plotter_node http://shang:43333/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,104: -SERVICE [/kml_plotter_node/set_logger_level] /kml_plotter_node rosrpc://shang:46311
+[rosmaster.master][INFO] 2021-05-09 10:58:20,107: -SERVICE [/kml_plotter_node/get_loggers] /kml_plotter_node rosrpc://shang:46311
+[rosmaster.master][INFO] 2021-05-09 10:58:20,108: -PUB [/wam_v/ship_controller/right_driving_force] /cmd_pub_right http://shang:41393/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,109: -SERVICE [/cmd_pub_right/get_loggers] /cmd_pub_right rosrpc://shang:40389
+[rosmaster.master][INFO] 2021-05-09 10:58:20,111: -SERVICE [/cmd_pub_right/set_logger_level] /cmd_pub_right rosrpc://shang:40389
+[rosmaster.master][INFO] 2021-05-09 10:58:20,118: -SUB [/clock] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,123: -PUB [/rosout] /plot_characteristic_curve_node http://shang:45887/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,123: -SERVICE [/plot_characteristic_curve_node/get_loggers] /plot_characteristic_curve_node rosrpc://shang:45915
+[rosmaster.master][INFO] 2021-05-09 10:58:20,123: -SERVICE [/plot_characteristic_curve_node/set_logger_level] /plot_characteristic_curve_node rosrpc://shang:45915
+[rosmaster.master][INFO] 2021-05-09 10:58:20,124: -PUB [/wam_v/ship_controller/left_driving_force] /cmd_pub_left http://shang:46023/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,124: -SERVICE [/plot_characteristic_curve] /plot_characteristic_curve_node rosrpc://shang:45915
+[rosmaster.master][INFO] 2021-05-09 10:58:20,125: -SERVICE [/cmd_pub_left/set_logger_level] /cmd_pub_left rosrpc://shang:40847
+[rosmaster.master][INFO] 2021-05-09 10:58:20,126: -SERVICE [/cmd_pub_left/get_loggers] /cmd_pub_left rosrpc://shang:40847
+[rosmaster.master][INFO] 2021-05-09 10:58:20,168: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43991/', 'http://shang:45887/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,169: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43991/', 'http://shang:45887/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,169: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,169: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:37715/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,202: -PUB [/rosout] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,206: -PUB [/initialpose] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,207: -PUB [/move_base_simple/goal] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,209: -PUB [/clicked_point] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,211: -SUB [/clock] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,212: -SUB [/tf] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,214: -SUB [/tf_static] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,215: -SUB [/left_motor/driving_force] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,216: -SUB [/right_motor/driving_force] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,217: -SUB [/robot_pose_ekf/odom_combined] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,219: -SUB [/wam_v/camera/front/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,219: -SUB [/wam_v/camera/left/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,220: -SUB [/wam_v/camera/right/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,224: -SUB [/wam_v/camera/rear/image_raw] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,225: -SUB [/velodyne_points] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,225: -SUB [/scan] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,230: -SUB [/object_recognition_node/detected_objects/marker] /rviz http://shang:37715/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,233: -PUB [/rosout] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,233: -SERVICE [/rviz/get_loggers] /rviz rosrpc://shang:43233
+[rosmaster.master][INFO] 2021-05-09 10:58:20,235: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://shang:43233
+[rosmaster.master][INFO] 2021-05-09 10:58:20,236: -PUB [/object_recognition_node/detected_objects] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,242: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://shang:43233
+[rosmaster.master][INFO] 2021-05-09 10:58:20,242: -PUB [/object_recognition_node/detected_objects/marker] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,243: -SUB [/clock] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,244: -SUB [/velodyne_points] /object_recognition_node http://shang:38471/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,247: -SERVICE [/object_recognition_node/get_loggers] /object_recognition_node rosrpc://shang:51115
+[rosmaster.master][INFO] 2021-05-09 10:58:20,248: -SERVICE [/object_recognition_node/set_logger_level] /object_recognition_node rosrpc://shang:51115
+[rosmaster.master][INFO] 2021-05-09 10:58:20,270: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,271: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:38471/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,271: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,272: -PUB [/rosout] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,273: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:35195/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,273: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,274: -SUB [/clock] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,274: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:32813/', 'http://shang:34957/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,275: -SUB [/fix_velocity] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,276: -SUB [/fix] /geographic_map_server_node http://shang:35195/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,277: -SERVICE [/geographic_map_server_node/get_loggers] /geographic_map_server_node rosrpc://shang:54747
+[rosmaster.master][INFO] 2021-05-09 10:58:20,277: -SERVICE [/geographic_map_server_node/set_logger_level] /geographic_map_server_node rosrpc://shang:54747
+[rosmaster.master][INFO] 2021-05-09 10:58:20,299: -PUB [/rosout] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,300: -PUB [/tf] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,301: -PUB [/tf_static] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,302: -SUB [/clock] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,303: -SUB [/wam_v/joint_states] /wam_v/robot_state_publisher http://shang:32813/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,304: -SERVICE [/wam_v/robot_state_publisher/get_loggers] /wam_v/robot_state_publisher rosrpc://shang:45829
+[rosmaster.master][INFO] 2021-05-09 10:58:20,304: -SERVICE [/wam_v/robot_state_publisher/set_logger_level] /wam_v/robot_state_publisher rosrpc://shang:45829
+[rosmaster.master][INFO] 2021-05-09 10:58:20,310: -PUB [/rosout] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,312: -PUB [/tf] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,315: -PUB [/robot_pose_ekf/odom_combined] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,316: -SUB [/clock] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,317: -SUB [/tf] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,317: -SUB [/tf_static] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,318: -SUB [/imu] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,323: -SUB [/gps_odom] /robot_pose_ekf http://shang:34957/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,327: -SERVICE [/robot_pose_ekf/get_loggers] /robot_pose_ekf rosrpc://shang:44867
+[rosmaster.master][INFO] 2021-05-09 10:58:20,332: -SERVICE [/robot_pose_ekf/set_logger_level] /robot_pose_ekf rosrpc://shang:44867
+[rosmaster.master][INFO] 2021-05-09 10:58:20,333: -SERVICE [/robot_pose_ekf/get_status] /robot_pose_ekf rosrpc://shang:44867
+[rosmaster.master][INFO] 2021-05-09 10:58:20,375: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:34957/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,375: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:34957/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,376: publisherUpdate[/tf] -> http://shang:34957/ ['http://shang:34957/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,376: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,376: publisherUpdate[/tf] -> http://shang:34957/ ['http://shang:34957/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-05-09 10:58:20,377: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:46487/', 'http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,377: publisherUpdate[/tf_static] -> http://shang:34957/ []
+[rosmaster.master][INFO] 2021-05-09 10:58:20,377: publisherUpdate[/tf_static] -> http://shang:34957/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 10:58:20,378: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.threadpool][ERROR] 2021-05-09 10:58:20,378: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 10:58:20,379: publisherUpdate[/tf] -> http://shang:34957/ []
+[rosmaster.master][INFO] 2021-05-09 10:58:20,379: publisherUpdate[/tf] -> http://shang:34957/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 10:58:20,379: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 10:58:20,390: -PUB [/rosout] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,397: -PUB [/gps_odom] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,398: -SUB [/clock] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,398: -SUB [/fix] /utm_odometry_node http://shang:46487/
+[rosmaster.master][INFO] 2021-05-09 10:58:20,399: -SERVICE [/utm_odometry_node/get_loggers] /utm_odometry_node rosrpc://shang:60969
+[rosmaster.master][INFO] 2021-05-09 10:58:20,400: -SERVICE [/utm_odometry_node/set_logger_level] /utm_odometry_node rosrpc://shang:60969
+[rosmaster.master][INFO] 2021-05-09 10:58:20,479: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/']
+[rosmaster.master][INFO] 2021-05-09 10:58:20,480: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:20,480: publisherUpdate[/gps_odom] -> http://shang:34423/ []
+[rosmaster.master][INFO] 2021-05-09 10:58:20,481: publisherUpdate[/gps_odom] -> http://shang:34423/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:22,732: +PARAM [/roslaunch/uris/host_shang__40999] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,739: +PARAM [/wam_v/ship_controller/right_motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,739: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,739: +PARAM [/object_recognition_node/input_cloud] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,739: +PARAM [/wam_v/left_driving_force_controller/gradient_descent/tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,739: +PARAM [/wam_v/ship_controller/angular/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/robot_pose_ekf/imu_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/robot_pose_ekf/odom_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/wam_v/left_driving_force_controller/propeller/fluid_density] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/wam_v/left_driving_force_controller/propeller/turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/wam_v/left_driving_force_controller/propeller/k1] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/robot_pose_ekf/sensor_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/wam_v/ship_controller/left_motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,740: +PARAM [/google_static_map_api_key] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_driving_force_controller/max_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/ship_controller/left_motor_joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/object_recognition_node/target_objects/buoy/stl_filename] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/left_driving_force_controller/motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_motor_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/ship_controller/angular/min_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_driving_force_controller/propeller/turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_driving_force_controller/propeller/fluid_density] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_driving_force_controller/motor_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/ship_controller/izz] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/right_driving_force_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/left_driving_force_controller/max_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,741: +PARAM [/wam_v/ship_controller/mass] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/ship_controller/motor_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/left_driving_force_controller/driving_force_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/right_motor_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/left_driving_force_controller/characteristic_curve_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/ship_controller/linear/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/right_motor_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/left_driving_force_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/ship_controller/linear/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/robot_pose_ekf/vo_used] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/ship_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/right_motor_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/water_surface_height] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/wam_v/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,742: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/ship_controller/right_motor_joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/left_driving_force_controller/propeller/k2] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/right_driving_force_controller/min_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/left_driving_force_controller/propeller/k0] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/left_driving_force_controller/min_rotational_speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/right_driving_force_controller/driving_force_command_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/object_recognition_node/target_objects/buoy/marker_filename] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/left_driving_force_controller/gradient_descent/alpha] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,743: +PARAM [/wam_v/left_motor_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,744: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,744: +PARAM [/wam_v/left_motor_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,745: +PARAM [/wam_v/ship_controller/linear/min_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,745: +PARAM [/wam_v/left_motor_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,745: +PARAM [/wam_v/left_motor_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/robot_pose_ekf/output_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/left_motor_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/ship_controller/linear/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/right_driving_force_controller/gradient_descent/alpha] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/ship_controller/linear/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/left_driving_force_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/geographic_map_server_node/osm_filepath] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/utm_odometry_node/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/ship_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/robot_pose_ekf/debug] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/robot_pose_ekf/self_diagnose] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/right_driving_force_controller/propeller/k1] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/right_driving_force_controller/propeller/k0] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,746: +PARAM [/wam_v/right_driving_force_controller/propeller/k2] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/wam_v/right_driving_force_controller/characteristic_curve_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/wam_v/right_driving_force_controller/gradient_descent/tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/wam_v/right_driving_force_controller/twist_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/wam_v/right_motor_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/robot_pose_ekf/freq] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:22,747: +PARAM [/wam_v/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-05-09 10:58:23,047: +PUB [/rosout] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,056: +SERVICE [/wam_v/robot_state_publisher/get_loggers] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,061: +SERVICE [/wam_v/robot_state_publisher/set_logger_level] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,076: +SUB [/clock] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,091: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,092: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,093: +PUB [/tf] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,096: +PUB [/tf_static] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,132: +PUB [/rosout] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,140: +SERVICE [/utm_odometry_node/get_loggers] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,142: +SUB [/wam_v/joint_states] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,146: +PUB [/rosout] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,152: +SERVICE [/utm_odometry_node/set_logger_level] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,182: +SERVICE [/robot_pose_ekf/get_loggers] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,186: +PUB [/rosout] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,188: +SERVICE [/robot_pose_ekf/set_logger_level] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,192: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,194: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,194: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,195: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,195: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,196: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,212: +SERVICE [/geographic_map_server_node/get_loggers] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,229: +SERVICE [/geographic_map_server_node/set_logger_level] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,281: +SUB [/clock] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,292: +SUB [/clock] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,297: +SUB [/clock] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,313: +PUB [/gps_odom] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,316: +SUB [/tf] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,338: +SUB [/fix] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,340: +SUB [/tf_static] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,344: +PUB [/tf] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,393: +PUB [/robot_pose_ekf/odom_combined] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,396: publisherUpdate[/gps_odom] -> http://shang:34423/ ['http://shang:43069/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,402: publisherUpdate[/tf] -> http://shang:41669/ ['http://shang:34823/', 'http://shang:41669/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,421: publisherUpdate[/gps_odom] -> http://shang:34423/ ['http://shang:43069/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,424: publisherUpdate[/tf] -> http://shang:41669/ ['http://shang:34823/', 'http://shang:41669/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,437: +SUB [/imu] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,449: +SUB [/gps_odom] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,463: +PUB [/rosout] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,464: +SERVICE [/robot_pose_ekf/get_status] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,465: +SERVICE [/object_recognition_node/get_loggers] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,466: +SERVICE [/object_recognition_node/set_logger_level] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,497: +SUB [/clock] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,502: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,503: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,542: +SUB [/fix_velocity] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,551: +SUB [/fix] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,699: +PUB [/rosout] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,702: +SERVICE [/rviz/get_loggers] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,703: +SERVICE [/rviz/set_logger_level] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,707: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,709: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,720: +SUB [/clock] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,887: +PUB [/rosout] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,890: +SERVICE [/cmd_pub_left/get_loggers] /cmd_pub_left http://shang:42705/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,892: +SERVICE [/cmd_pub_left/set_logger_level] /cmd_pub_left http://shang:42705/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,893: +PUB [/wam_v/ship_controller/left_driving_force] /cmd_pub_left http://shang:42705/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,900: +SUB [/clock] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,906: +SERVICE [/kml_plotter_node/get_loggers] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,909: +SERVICE [/kml_plotter_node/set_logger_level] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,909: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/']
+[rosmaster.master][INFO] 2021-05-09 10:58:23,912: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:23,945: +PUB [/object_recognition_node/detected_objects] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,946: +PUB [/object_recognition_node/detected_objects/marker] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:23,951: +SUB [/velodyne_points] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,013: +PUB [/rosout] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,018: +SUB [/clock] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,020: +SERVICE [/wam_v/controller_spawner/get_loggers] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,022: +SERVICE [/wam_v/controller_spawner/set_logger_level] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,022: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,025: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:43991/', 'http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,154: +SERVICE [/cmd_pub_right/get_loggers] /cmd_pub_right http://shang:45481/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,155: +SERVICE [/cmd_pub_right/set_logger_level] /cmd_pub_right http://shang:45481/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,159: +PUB [/wam_v/ship_controller/right_driving_force] /cmd_pub_right http://shang:45481/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,200: +SUB [/fix] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,226: +PUB [/rosout] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,227: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,228: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,229: +SERVICE [/gazebo/get_loggers] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,230: +SERVICE [/gazebo/set_logger_level] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,248: +SUB [/clock] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,277: +SUB [/tf] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,286: +SUB [/tf_static] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,312: +PUB [/rosout] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,312: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,313: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,318: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,322: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,352: +SUB [/clock] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,367: +PUB [/rosout] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,372: +SUB [/clock] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,377: +SERVICE [/plot_characteristic_curve_node/get_loggers] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,379: +SERVICE [/plot_characteristic_curve_node/set_logger_level] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,388: +PUB [/initialpose] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,400: +PUB [/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,414: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,420: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,577: +PUB [/rosout] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,593: +SUB [/clock] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,598: +SERVICE [/plot_characteristic_curve] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,599: +SERVICE [/red_buoy_01/buoy_spawner_red_01/get_loggers] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,603: +SERVICE [/red_buoy_01/buoy_spawner_red_01/set_logger_level] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,608: +PUB [/rosout] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,613: +SUB [/clock] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,620: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,620: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:45253/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,621: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:45253/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,622: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:45253/', 'http://shang:34711/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,624: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:45253/', 'http://shang:34711/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,626: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,792: +PUB [/clock] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,795: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,797: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,799: +SERVICE [/gazebo/delete_model] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,801: +SERVICE [/gazebo/delete_light] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,802: +SERVICE [/gazebo/get_model_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,802: +SERVICE [/gazebo/get_model_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,803: +SERVICE [/gazebo/get_world_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,804: +SERVICE [/gazebo/get_joint_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,805: +SERVICE [/gazebo/get_link_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,806: +SERVICE [/gazebo/get_link_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,807: +SERVICE [/gazebo/get_light_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,808: +SERVICE [/gazebo/set_light_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,809: +SERVICE [/gazebo/get_physics_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,810: +PUB [/gazebo/link_states] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,810: +PUB [/gazebo/model_states] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,811: +SERVICE [/gazebo/set_link_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,812: +SERVICE [/gazebo/set_physics_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,813: +SERVICE [/gazebo/set_model_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,813: +SERVICE [/gazebo/set_model_configuration] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,814: +SERVICE [/gazebo/set_joint_properties] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,815: +SERVICE [/gazebo/set_link_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,819: +SUB [/gazebo/set_link_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,826: publisherUpdate[/clock] -> http://shang:34423/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,828: publisherUpdate[/clock] -> http://shang:34423/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,829: publisherUpdate[/clock] -> http://shang:34823/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,829: publisherUpdate[/clock] -> http://shang:34823/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,830: publisherUpdate[/clock] -> http://shang:43069/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,830: publisherUpdate[/clock] -> http://shang:41669/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,831: publisherUpdate[/clock] -> http://shang:43069/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,832: publisherUpdate[/clock] -> http://shang:38881/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,834: publisherUpdate[/clock] -> http://shang:41669/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,834: publisherUpdate[/clock] -> http://shang:43043/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,836: publisherUpdate[/clock] -> http://shang:38881/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,836: publisherUpdate[/clock] -> http://shang:39565/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,834: +SERVICE [/gazebo/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,838: publisherUpdate[/clock] -> http://shang:39565/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,838: publisherUpdate[/clock] -> http://shang:42515/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,839: publisherUpdate[/clock] -> http://shang:43043/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,840: publisherUpdate[/clock] -> http://shang:42515/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,840: publisherUpdate[/clock] -> http://shang:45099/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,841: publisherUpdate[/clock] -> http://shang:36863/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,843: +SUB [/gazebo/set_model_state] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,843: publisherUpdate[/clock] -> http://shang:45099/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,844: publisherUpdate[/clock] -> http://shang:41191/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,844: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,845: publisherUpdate[/clock] -> http://shang:34385/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,847: publisherUpdate[/clock] -> http://shang:36863/ ['http://shang:36863/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,852: publisherUpdate[/clock] -> http://shang:45253/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,849: +PUB [/gazebo/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,847: publisherUpdate[/clock] -> http://shang:41191/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,857: publisherUpdate[/clock] -> http://shang:34711/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,858: +SERVICE [/gazebo/pause_physics] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,858: publisherUpdate[/clock] -> http://shang:34711/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,856: publisherUpdate[/clock] -> http://shang:45253/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,856: publisherUpdate[/clock] -> http://shang:34385/ ['http://shang:36863/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,862: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,867: +PUB [/gazebo/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,869: +SERVICE [/gazebo/unpause_physics] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,875: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,876: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,889: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,898: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,905: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,910: +SERVICE [/gazebo/reset_simulation] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,918: +SERVICE [/gazebo/reset_world] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,948: -SUB [/clock] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,949: -PUB [/rosout] /red_buoy_01/buoy_spawner_red_01 http://shang:45253/
+[rosmaster.master][INFO] 2021-05-09 10:58:24,949: -SERVICE [/red_buoy_01/buoy_spawner_red_01/get_loggers] /red_buoy_01/buoy_spawner_red_01 rosrpc://shang:46465
+[rosmaster.master][INFO] 2021-05-09 10:58:24,949: -SERVICE [/red_buoy_01/buoy_spawner_red_01/set_logger_level] /red_buoy_01/buoy_spawner_red_01 rosrpc://shang:46465
+[rosmaster.master][INFO] 2021-05-09 10:58:24,963: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:34711/']
+[rosmaster.master][INFO] 2021-05-09 10:58:24,965: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:45099/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:34711/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:24,973: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:24,977: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:24,980: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:24,982: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:24,987: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:24,989: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:24,989: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:24,994: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:24,996: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:24,996: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,001: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,003: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,004: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,004: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,005: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,007: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,008: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,009: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,009: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,011: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,012: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,018: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,023: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,024: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,025: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,026: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,027: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,029: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,035: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:25,035: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,175: +PUB [/top_link/bounding_box] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,177: +PUB [/top_link/buoyancy] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,540: +SERVICE [/wam_v/camera/front/set_camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,543: +SERVICE [/wam_v/camera/left/set_camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,549: +SERVICE [/wam_v/camera/front/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,550: +PUB [/wam_v/camera/front/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,552: +SERVICE [/wam_v/camera/rear/set_camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,553: +PUB [/wam_v/camera/front/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,556: +PARAM [/wam_v/camera/front/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,560: +PARAM [/wam_v/camera/front/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,562: +SERVICE [/wam_v/camera/left/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,564: +PUB [/wam_v/camera/left/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,566: +SERVICE [/wam_v/camera/rear/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,573: +PUB [/wam_v/camera/left/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,576: +PUB [/wam_v/camera/rear/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,580: +SERVICE [/wam_v/camera/right/set_camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,580: +PARAM [/wam_v/camera/left/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,583: +PUB [/wam_v/camera/rear/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,588: +PARAM [/wam_v/camera/rear/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,589: +PARAM [/wam_v/camera/left/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,593: +SERVICE [/wam_v/camera/right/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,594: +PUB [/wam_v/camera/right/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,596: +PARAM [/wam_v/camera/rear/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,597: +PUB [/wam_v/camera/right/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,609: +PARAM [/wam_v/camera/right/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,611: +PARAM [/wam_v/camera/right/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,645: +PUB [/wam_v/camera/left/image_raw/compressedDepth] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,646: +PUB [/wam_v/camera/right/image_raw/compressedDepth] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,647: +PUB [/wam_v/camera/rear/image_raw/compressedDepth] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,649: +SERVICE [/wam_v/camera/right/image_raw/compressedDepth/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,650: +PUB [/wam_v/camera/front/image_raw/compressedDepth] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,651: +PUB [/wam_v/camera/right/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,652: +SERVICE [/wam_v/camera/left/image_raw/compressedDepth/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,653: +PUB [/wam_v/camera/right/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,653: +PUB [/wam_v/camera/left/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,656: +SERVICE [/wam_v/camera/rear/image_raw/compressedDepth/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,658: +PUB [/wam_v/camera/left/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,661: +PUB [/wam_v/camera/rear/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,661: +SERVICE [/wam_v/camera/front/image_raw/compressedDepth/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,663: +PUB [/wam_v/camera/rear/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,664: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,667: +PUB [/wam_v/camera/front/image_raw/compressedDepth/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,669: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,672: +PUB [/wam_v/camera/front/image_raw/compressedDepth/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,677: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,679: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,683: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,685: +PARAM [/wam_v/camera/right/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,686: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,687: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,692: +PUB [/wam_v/camera/right/image_raw/compressed] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,696: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,697: +SERVICE [/wam_v/camera/right/image_raw/compressed/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,698: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,700: +PUB [/wam_v/camera/right/image_raw/compressed/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,700: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,701: +PUB [/wam_v/camera/right/image_raw/compressed/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,708: +PARAM [/wam_v/camera/rear/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,710: +PUB [/wam_v/camera/rear/image_raw/compressed] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,712: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,713: +SERVICE [/wam_v/camera/rear/image_raw/compressed/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,716: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,719: +PUB [/wam_v/camera/rear/image_raw/compressed/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,721: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,722: +PUB [/wam_v/camera/rear/image_raw/compressed/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,723: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,725: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,732: +PARAM [/wam_v/camera/right/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,733: +PARAM [/wam_v/camera/right/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,734: +PARAM [/wam_v/camera/right/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,735: +PARAM [/wam_v/camera/right/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,736: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,737: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,738: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,739: +PARAM [/wam_v/camera/right/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,740: +PARAM [/wam_v/camera/right/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,745: +PUB [/wam_v/camera/right/image_raw] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,745: +PARAM [/wam_v/camera/front/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,747: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,748: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,749: +PUB [/wam_v/camera/right/image_raw/theora] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,750: +PUB [/wam_v/camera/front/image_raw/compressed] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,752: +PARAM [/wam_v/camera/left/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,753: +PARAM [/wam_v/camera/rear/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,753: +SERVICE [/wam_v/camera/right/image_raw/theora/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,755: +PARAM [/wam_v/camera/rear/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,756: +SERVICE [/wam_v/camera/front/image_raw/compressed/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,757: +PUB [/wam_v/camera/right/image_raw/theora/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,757: +PARAM [/wam_v/camera/rear/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,760: +PUB [/wam_v/camera/left/image_raw/compressed] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,760: +PUB [/wam_v/camera/front/image_raw/compressed/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,761: +PARAM [/wam_v/camera/rear/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,763: +SERVICE [/wam_v/camera/left/image_raw/compressed/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,764: +PUB [/wam_v/camera/front/image_raw/compressed/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,766: +PUB [/wam_v/camera/right/image_raw/theora/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,766: +PARAM [/wam_v/camera/rear/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,767: +PUB [/wam_v/camera/left/image_raw/compressed/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,769: +PUB [/wam_v/camera/left/image_raw/compressed/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,772: +PARAM [/wam_v/camera/rear/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,774: +PUB [/wam_v/camera/rear/image_raw] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,778: +PUB [/wam_v/camera/rear/image_raw/theora] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,781: +SERVICE [/wam_v/camera/rear/image_raw/theora/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,782: +PUB [/wam_v/camera/rear/image_raw/theora/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,784: +PUB [/wam_v/camera/rear/image_raw/theora/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,786: +PARAM [/wam_v/camera/front/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,789: +PARAM [/wam_v/camera/front/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,793: +PARAM [/wam_v/camera/front/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,794: +PARAM [/wam_v/camera/front/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,796: +PARAM [/wam_v/camera/front/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,797: +PARAM [/wam_v/camera/front/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,798: +PARAM [/wam_v/camera/right/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,800: +PUB [/wam_v/camera/front/image_raw] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,800: +PARAM [/wam_v/camera/left/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,802: +PUB [/wam_v/camera/front/image_raw/theora] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,803: +PARAM [/wam_v/camera/left/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,805: +SERVICE [/wam_v/camera/front/image_raw/theora/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,806: +PARAM [/wam_v/camera/left/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,807: +PARAM [/wam_v/camera/left/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,807: +PUB [/wam_v/camera/front/image_raw/theora/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,809: +PARAM [/wam_v/camera/left/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,809: +PUB [/wam_v/camera/front/image_raw/theora/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,810: +PARAM [/wam_v/camera/left/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,812: +PUB [/wam_v/camera/left/image_raw] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,814: +PARAM [/wam_v/camera/right/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,815: +PUB [/wam_v/camera/left/image_raw/theora] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,816: +PARAM [/wam_v/camera/rear/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,817: +SERVICE [/wam_v/camera/left/image_raw/theora/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,821: +PARAM [/wam_v/camera/rear/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,823: +PARAM [/wam_v/camera/rear/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,823: +PUB [/wam_v/camera/left/image_raw/theora/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,825: +PARAM [/wam_v/camera/rear/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,825: +PUB [/wam_v/camera/left/image_raw/theora/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,826: +PARAM [/wam_v/camera/rear/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,828: +PARAM [/wam_v/camera/rear/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,830: +PARAM [/wam_v/camera/rear/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,832: +PARAM [/wam_v/camera/rear/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,834: +PUB [/wam_v/camera/rear/camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,835: +PARAM [/wam_v/camera/front/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,836: +PARAM [/wam_v/camera/front/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,837: +PARAM [/wam_v/camera/front/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,838: +PARAM [/wam_v/camera/front/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,839: +PARAM [/wam_v/camera/front/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,840: +PARAM [/wam_v/camera/front/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,841: +PARAM [/wam_v/camera/front/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,843: +PARAM [/wam_v/camera/front/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,844: +PUB [/wam_v/camera/front/camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,845: +PARAM [/wam_v/camera/left/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,846: +PARAM [/wam_v/camera/left/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,847: +PARAM [/wam_v/camera/left/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,848: +PARAM [/wam_v/camera/left/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,851: +PARAM [/wam_v/camera/left/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,852: +PARAM [/wam_v/camera/left/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,853: +PARAM [/wam_v/camera/left/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,854: +PARAM [/wam_v/camera/left/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,855: +PUB [/wam_v/camera/left/camera_info] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:25,856: +PARAM [/wam_v/camera/right/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,857: +PARAM [/wam_v/camera/right/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,858: +PARAM [/wam_v/camera/right/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,859: +PARAM [/wam_v/camera/right/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,860: +PARAM [/wam_v/camera/right/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,861: +PARAM [/wam_v/camera/right/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:25,862: +PUB [/wam_v/camera/right/camera_info] /gazebo http://shang:36863/
+[rosmaster.master][ERROR] 2021-05-09 10:58:26,539: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2021-05-09 10:58:26,541: +PUB [/scan] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,037: +SUB [/left_motor/driving_force] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,042: +SUB [/right_motor/driving_force] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,047: +SUB [/robot_pose_ekf/odom_combined] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,059: +SUB [/wam_v/camera/front/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,068: +SUB [/wam_v/camera/left/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,078: +SUB [/wam_v/camera/right/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,087: +SUB [/wam_v/camera/rear/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,095: +SUB [/velodyne_points] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,103: +SUB [/scan] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,108: +SUB [/visualization_marker_array] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,109: -SUB [/visualization_marker_array] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,113: +SUB [/object_recognition_node/detected_objects/marker] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,121: -PUB [/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,122: -PUB [/initialpose] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,128: +PUB [/initialpose] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,130: +PUB [/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,131: +PUB [/move_base_simple/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,132: -PUB [/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,133: +PUB [/clicked_point] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:29,224: +SERVICE [/rviz/reload_shaders] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 10:58:54,241: -SUB [/clock] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:54,242: -PUB [/rosout] /wam_v/controller_spawner http://shang:45099/
+[rosmaster.master][INFO] 2021-05-09 10:58:54,242: -SERVICE [/wam_v/controller_spawner/get_loggers] /wam_v/controller_spawner rosrpc://shang:41343
+[rosmaster.master][INFO] 2021-05-09 10:58:54,242: -SERVICE [/wam_v/controller_spawner/set_logger_level] /wam_v/controller_spawner rosrpc://shang:41343
+[rosmaster.master][INFO] 2021-05-09 10:58:54,311: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:34711/']
+[rosmaster.master][INFO] 2021-05-09 10:58:54,312: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/', 'http://shang:34711/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:55,476: -SUB [/clock] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:55,476: -PUB [/rosout] /urdf_spawner http://shang:34711/
+[rosmaster.master][INFO] 2021-05-09 10:58:55,477: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://shang:45547
+[rosmaster.master][INFO] 2021-05-09 10:58:55,477: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://shang:45547
+[rosmaster.master][INFO] 2021-05-09 10:58:55,478: +PUB [/velodyne_points] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:58:55,478: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,480: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,486: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,493: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,495: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,496: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,499: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,504: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,505: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,508: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,509: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,509: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,514: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/']
+[rosmaster.master][INFO] 2021-05-09 10:58:55,515: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/', 'http://shang:34385/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:55,515: publisherUpdate[/velodyne_points] -> http://shang:43043/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:55,515: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,516: publisherUpdate[/velodyne_points] -> http://shang:43043/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:55,517: publisherUpdate[/velodyne_points] -> http://shang:39565/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:58:55,519: publisherUpdate[/velodyne_points] -> http://shang:39565/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:58:55,520: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,521: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,524: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,529: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,530: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,530: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,531: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,532: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,533: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,535: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,536: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,540: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,543: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,547: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,548: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:58:55,549: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:58:55,552: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-09 10:59:00,416: +SERVICE [/wam_v/controller_manager/list_controllers] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,417: +SERVICE [/wam_v/controller_manager/list_controller_types] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,418: +SERVICE [/wam_v/controller_manager/load_controller] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,420: +SERVICE [/wam_v/controller_manager/unload_controller] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,422: +SERVICE [/wam_v/controller_manager/switch_controller] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,422: +SERVICE [/wam_v/controller_manager/reload_controller_libraries] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,425: +PUB [/right_bbox/base_footprint/bounding_box] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,426: +PUB [/right_bbox/base_footprint/buoyancy] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,428: +PUB [/left_bbox/base_footprint/bounding_box] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,429: +PUB [/left_bbox/base_footprint/buoyancy] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,431: +PUB [/right_motor/bounding_box] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,432: +PUB [/right_motor/buoyancy] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,437: +PUB [/left_motor/bounding_box] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,439: +PUB [/left_motor/buoyancy] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,447: +PUB [/fix] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,449: +PUB [/fix_velocity] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,451: +SERVICE [/fix/position/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,452: +PUB [/fix/position/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,453: +PUB [/fix/position/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,456: +PARAM [/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,457: +PARAM [/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,457: +PARAM [/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,458: +PARAM [/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,459: +PARAM [/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,459: +SERVICE [/fix/velocity/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,460: +PUB [/fix/velocity/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,461: +PUB [/fix/velocity/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,464: +PARAM [/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,465: +PARAM [/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,465: +PARAM [/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,466: +PARAM [/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,467: +PARAM [/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,469: +SERVICE [/fix/status/set_parameters] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,470: +PUB [/fix/status/parameter_descriptions] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,472: +PUB [/fix/status/parameter_updates] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,482: +PARAM [/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,483: +PARAM [/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,484: +PARAM [/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,484: +PARAM [/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,485: +PARAM [/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,486: +PARAM [/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,487: +PARAM [/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,487: +PARAM [/fix/position/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,488: +PARAM [/fix/position/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,490: +PARAM [/fix/position/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,491: +PARAM [/fix/position/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,492: +PARAM [/fix/position/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,493: +PARAM [/fix/velocity/gaussian_noise] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,493: +PARAM [/fix/velocity/offset] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,494: +PARAM [/fix/velocity/drift] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,495: +PARAM [/fix/velocity/drift_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,495: +PARAM [/fix/velocity/scale_error] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,496: +PARAM [/fix/status/STATUS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,497: +PARAM [/fix/status/STATUS_SBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,497: +PARAM [/fix/status/STATUS_GBAS_FIX] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,498: +PARAM [/fix/status/SERVICE_GPS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,499: +PARAM [/fix/status/SERVICE_GLONASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,499: +PARAM [/fix/status/SERVICE_COMPASS] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,500: +PARAM [/fix/status/SERVICE_GALILEO] by /gazebo
+[rosmaster.master][INFO] 2021-05-09 10:59:00,505: +PUB [/nmea_sentence] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,516: +PUB [/left_motor/driving_force] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,520: +PUB [/right_motor/driving_force] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,526: publisherUpdate[/fix] -> http://shang:43069/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,526: publisherUpdate[/fix] -> http://shang:38881/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,527: publisherUpdate[/fix] -> http://shang:43069/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,527: publisherUpdate[/fix] -> http://shang:42515/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,528: publisherUpdate[/fix] -> http://shang:38881/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,528: publisherUpdate[/fix_velocity] -> http://shang:38881/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,530: publisherUpdate[/fix] -> http://shang:42515/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,530: publisherUpdate[/fix_velocity] -> http://shang:38881/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,530: publisherUpdate[/left_motor/driving_force] -> http://shang:39565/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,531: +PUB [/imu] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 10:59:00,531: publisherUpdate[/imu] -> http://shang:41669/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,532: publisherUpdate[/left_motor/driving_force] -> http://shang:39565/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,532: publisherUpdate[/right_motor/driving_force] -> http://shang:39565/ ['http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 10:59:00,533: publisherUpdate[/imu] -> http://shang:41669/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,533: publisherUpdate[/right_motor/driving_force] -> http://shang:39565/ ['http://shang:36863/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 10:59:00,534: +SERVICE [/imu_service] /gazebo http://shang:36863/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,530: -PUB [/wam_v/ship_controller/left_driving_force] /cmd_pub_left http://shang:42705/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,531: -SERVICE [/cmd_pub_left/set_logger_level] /cmd_pub_left rosrpc://shang:35993
+[rosmaster.master][INFO] 2021-05-09 11:01:19,532: -SERVICE [/cmd_pub_left/get_loggers] /cmd_pub_left rosrpc://shang:35993
+[rosmaster.master][INFO] 2021-05-09 11:01:19,537: -PUB [/wam_v/ship_controller/right_driving_force] /cmd_pub_right http://shang:45481/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,538: -SERVICE [/cmd_pub_right/get_loggers] /cmd_pub_right rosrpc://shang:36783
+[rosmaster.master][INFO] 2021-05-09 11:01:19,538: -SERVICE [/cmd_pub_right/set_logger_level] /cmd_pub_right rosrpc://shang:36783
+[rosmaster.master][INFO] 2021-05-09 11:01:19,542: -SUB [/clock] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,543: -SUB [/clock] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,544: -PUB [/rosout] /plot_characteristic_curve_node http://shang:34385/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,544: -SUB [/fix] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,544: -SERVICE [/plot_characteristic_curve_node/get_loggers] /plot_characteristic_curve_node rosrpc://shang:37075
+[rosmaster.master][INFO] 2021-05-09 11:01:19,544: -PUB [/rosout] /kml_plotter_node http://shang:42515/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,545: -SERVICE [/plot_characteristic_curve_node/set_logger_level] /plot_characteristic_curve_node rosrpc://shang:37075
+[rosmaster.master][INFO] 2021-05-09 11:01:19,546: -SERVICE [/kml_plotter_node/set_logger_level] /kml_plotter_node rosrpc://shang:40307
+[rosmaster.master][INFO] 2021-05-09 11:01:19,547: -SERVICE [/plot_characteristic_curve] /plot_characteristic_curve_node rosrpc://shang:37075
+[rosmaster.master][INFO] 2021-05-09 11:01:19,547: -SERVICE [/kml_plotter_node/get_loggers] /kml_plotter_node rosrpc://shang:40307
+[rosmaster.master][INFO] 2021-05-09 11:01:19,555: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,557: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:42515/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,557: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,558: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:34823/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,649: -PUB [/rosout] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,653: -PUB [/tf] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,659: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,660: -PUB [/tf_static] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,662: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:43043/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,662: publisherUpdate[/tf] -> http://shang:41669/ ['http://shang:41669/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,664: publisherUpdate[/tf] -> http://shang:41669/ ['http://shang:41669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,664: publisherUpdate[/tf] -> http://shang:39565/ ['http://shang:41669/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,668: publisherUpdate[/tf] -> http://shang:39565/ ['http://shang:41669/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,668: publisherUpdate[/tf_static] -> http://shang:41669/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,672: publisherUpdate[/tf_static] -> http://shang:41669/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,672: publisherUpdate[/tf_static] -> http://shang:39565/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,676: publisherUpdate[/tf_static] -> http://shang:39565/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,678: -SUB [/clock] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,689: -SUB [/wam_v/joint_states] /wam_v/robot_state_publisher http://shang:34823/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,693: -SERVICE [/wam_v/robot_state_publisher/get_loggers] /wam_v/robot_state_publisher rosrpc://shang:52795
+[rosmaster.master][INFO] 2021-05-09 11:01:19,695: -SERVICE [/wam_v/robot_state_publisher/set_logger_level] /wam_v/robot_state_publisher rosrpc://shang:52795
+[rosmaster.master][INFO] 2021-05-09 11:01:19,768: -PUB [/rosout] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,769: -PUB [/object_recognition_node/detected_objects] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,771: -PUB [/rosout] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,775: -PUB [/rosout] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,778: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,779: -PUB [/gps_odom] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,782: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:43069/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,782: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,784: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:41669/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,785: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,785: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:38881/', 'http://shang:39565/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,786: publisherUpdate[/gps_odom] -> http://shang:34423/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,786: -PUB [/rosout] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,787: -PUB [/tf] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,788: -PUB [/object_recognition_node/detected_objects/marker] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,792: publisherUpdate[/gps_odom] -> http://shang:34423/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,795: publisherUpdate[/gps_odom] -> http://shang:41669/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,793: -SUB [/clock] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,801: publisherUpdate[/gps_odom] -> http://shang:41669/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 11:01:19,802: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 11:01:19,802: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:38881/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,805: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:38881/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,808: publisherUpdate[/tf] -> http://shang:41669/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,809: publisherUpdate[/tf] -> http://shang:39565/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,811: publisherUpdate[/tf] -> http://shang:39565/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 11:01:19,812: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 11:01:19,812: publisherUpdate[/object_recognition_node/detected_objects/marker] -> http://shang:39565/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,807: -PUB [/robot_pose_ekf/odom_combined] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,816: publisherUpdate[/object_recognition_node/detected_objects/marker] -> http://shang:39565/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 11:01:19,818: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 11:01:19,818: publisherUpdate[/robot_pose_ekf/odom_combined] -> http://shang:39565/ []
+[rosmaster.master][INFO] 2021-05-09 11:01:19,820: publisherUpdate[/tf] -> http://shang:41669/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 11:01:19,820: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 11:01:19,824: publisherUpdate[/robot_pose_ekf/odom_combined] -> http://shang:39565/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-09 11:01:19,825: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-09 11:01:19,825: -SUB [/clock] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,827: -PUB [/rosout] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,828: -SUB [/fix] /utm_odometry_node http://shang:43069/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,831: -PUB [/initialpose] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,833: -SUB [/clock] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,837: -SUB [/velodyne_points] /object_recognition_node http://shang:43043/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,844: -SERVICE [/utm_odometry_node/get_loggers] /utm_odometry_node rosrpc://shang:51397
+[rosmaster.master][INFO] 2021-05-09 11:01:19,847: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:36863/', 'http://shang:41191/']
+[rosmaster.master][INFO] 2021-05-09 11:01:19,850: -PUB [/move_base_simple/goal] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,851: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:36863/', 'http://shang:41191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-09 11:01:19,855: -SUB [/clock] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,859: -SUB [/tf] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,861: -SERVICE [/object_recognition_node/get_loggers] /object_recognition_node rosrpc://shang:56407
+[rosmaster.master][INFO] 2021-05-09 11:01:19,862: -SERVICE [/utm_odometry_node/set_logger_level] /utm_odometry_node rosrpc://shang:51397
+[rosmaster.master][INFO] 2021-05-09 11:01:19,869: -PUB [/clicked_point] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,875: -SUB [/fix_velocity] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,880: -SUB [/tf_static] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,886: -SERVICE [/object_recognition_node/set_logger_level] /object_recognition_node rosrpc://shang:56407
+[rosmaster.master][INFO] 2021-05-09 11:01:19,887: -SUB [/clock] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,888: -SUB [/imu] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,889: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,892: -SUB [/tf] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,894: -SUB [/gps_odom] /robot_pose_ekf http://shang:41669/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,895: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,901: -SUB [/fix] /geographic_map_server_node http://shang:38881/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,907: -SERVICE [/robot_pose_ekf/get_loggers] /robot_pose_ekf rosrpc://shang:36273
+[rosmaster.master][INFO] 2021-05-09 11:01:19,910: -SUB [/tf_static] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,911: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://shang:42721
+[rosmaster.master][INFO] 2021-05-09 11:01:19,912: -SERVICE [/geographic_map_server_node/get_loggers] /geographic_map_server_node rosrpc://shang:59747
+[rosmaster.master][INFO] 2021-05-09 11:01:19,913: -SERVICE [/robot_pose_ekf/set_logger_level] /robot_pose_ekf rosrpc://shang:36273
+[rosmaster.master][INFO] 2021-05-09 11:01:19,918: -SUB [/left_motor/driving_force] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,919: -SERVICE [/geographic_map_server_node/set_logger_level] /geographic_map_server_node rosrpc://shang:59747
+[rosmaster.master][INFO] 2021-05-09 11:01:19,920: -SERVICE [/robot_pose_ekf/get_status] /robot_pose_ekf rosrpc://shang:36273
+[rosmaster.master][INFO] 2021-05-09 11:01:19,921: -SUB [/right_motor/driving_force] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,922: -SUB [/robot_pose_ekf/odom_combined] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,923: -SUB [/wam_v/camera/front/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,924: -SUB [/wam_v/camera/left/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,926: -SUB [/wam_v/camera/right/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,927: -SUB [/wam_v/camera/rear/image_raw] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,928: -SUB [/velodyne_points] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,929: -SUB [/scan] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,932: -SUB [/object_recognition_node/detected_objects/marker] /rviz http://shang:39565/
+[rosmaster.master][INFO] 2021-05-09 11:01:19,941: -SERVICE [/rviz/get_loggers] /rviz rosrpc://shang:59265
+[rosmaster.master][INFO] 2021-05-09 11:01:19,942: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://shang:59265
+[rosmaster.master][INFO] 2021-05-09 11:01:19,943: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://shang:59265
+[rosmaster.master][INFO] 2021-05-09 11:01:20,075: -PUB [/rosout] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 11:01:20,076: -SUB [/clock] /gazebo_gui http://shang:41191/
+[rosmaster.master][INFO] 2021-05-09 11:01:20,077: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://shang:42721
+[rosmaster.master][INFO] 2021-05-09 11:01:20,078: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://shang:42721
+[rosmaster.master][INFO] 2021-05-09 11:01:20,123: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:36863/']
+[rosmaster.master][INFO] 2021-05-09 11:01:20,125: publisherUpdate[/rosout] -> http://shang:40781/ ['http://shang:34423/', 'http://shang:36863/']: sec=0.00, result=[1, '', 0]

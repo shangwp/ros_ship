@@ -1,0 +1,44 @@
+[rospy.client][INFO] 2021-05-09 10:50:12,046: init_node, name[/red_buoy_01/buoy_spawner_red_01], pid[2732]
+[xmlrpc][INFO] 2021-05-09 10:50:12,046: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:50:12,046: Started XML-RPC server [http://shang:35193/]
+[rospy.init][INFO] 2021-05-09 10:50:12,046: ROS Slave URI: [http://shang:35193/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:12,046: _ready: http://shang:35193/
+[xmlrpc][INFO] 2021-05-09 10:50:12,047: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-05-09 10:50:12,048: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-09 10:50:12,147: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:50:12,147: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-09 10:50:12,150: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:50:12,153: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:50:12,157: connected to core topic /clock
+[rosout][INFO] 2021-05-09 10:50:12,165: Loading model XML from file
+[rosout][INFO] 2021-05-09 10:50:12,166: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2021-05-09 10:50:12,411: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-05-09 10:50:12,474: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2021-05-09 10:50:12,583: topic[/clock] adding connection to [http://shang:43991/], count 0
+[rosout][INFO] 2021-05-09 10:50:12,652: Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name red_buoy_01
+[rospy.core][INFO] 2021-05-09 10:50:12,653: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-05-09 10:50:12,665: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-09 10:50:12,665: topic[/clock] removing connection to http://shang:43991/
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:12,665: atexit
+[rospy.client][INFO] 2021-05-09 10:58:24,564: init_node, name[/red_buoy_01/buoy_spawner_red_01], pid[5259]
+[xmlrpc][INFO] 2021-05-09 10:58:24,564: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:58:24,565: Started XML-RPC server [http://shang:45253/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:24,565: _ready: http://shang:45253/
+[rospy.registration][INFO] 2021-05-09 10:58:24,566: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:58:24,567: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:58:24,575: ROS Slave URI: [http://shang:45253/]
+[rospy.init][INFO] 2021-05-09 10:58:24,575: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:58:24,575: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-09 10:58:24,581: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:58:24,591: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:58:24,594: connected to core topic /clock
+[rosout][INFO] 2021-05-09 10:58:24,604: Loading model XML from file
+[rosout][INFO] 2021-05-09 10:58:24,604: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2021-05-09 10:58:24,825: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-09 10:58:24,864: topic[/clock] adding connection to [http://shang:36863/], count 0
+[rosout][INFO] 2021-05-09 10:58:24,916: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2021-05-09 10:58:24,941: Spawn status: SpawnModel: Entity pushed to spawn queue, but spawn service timed out waiting for entity to appear in simulation under the name red_buoy_01
+[rospy.core][INFO] 2021-05-09 10:58:24,941: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-05-09 10:58:24,950: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-09 10:58:24,950: topic[/clock] removing connection to http://shang:36863/
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:24,950: atexit

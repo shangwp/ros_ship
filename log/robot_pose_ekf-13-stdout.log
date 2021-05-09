@@ -1,0 +1,7 @@
+[0m[ INFO] [1620529103.392158454]: output frame: odom[0m
+[0m[ INFO] [1620529103.392220942]: base frame: base_footprint[0m
+[0m[ INFO] [1620529140.739554803, 156.282000000]: Initializing Imu sensor[0m
+[0m[ INFO] [1620529140.778379129, 156.303000000]: Initializing Vo sensor[0m
+[0m[ INFO] [1620529140.808515094, 156.333000000]: Imu sensor activated[0m
+[0m[ INFO] [1620529140.904454895, 156.402000000]: Vo sensor activated[0m
+[0m[ INFO] [1620529140.936806251, 156.428000000]: Kalman filter initialized with vo measurement[0m

@@ -1,0 +1,78 @@
+[rospy.client][INFO] 2021-05-09 10:50:11,330: init_node, name[/kml_plotter_node], pid[2744]
+[xmlrpc][INFO] 2021-05-09 10:50:11,330: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:50:11,331: Started XML-RPC server [http://shang:43333/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:11,331: _ready: http://shang:43333/
+[rospy.registration][INFO] 2021-05-09 10:50:11,332: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:50:11,332: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:50:11,339: ROS Slave URI: [http://shang:43333/]
+[rospy.init][INFO] 2021-05-09 10:50:11,340: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:50:11,340: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-09 10:50:11,346: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:50:11,354: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:50:11,361: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-09 10:50:11,605: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-09 10:50:12,547: topic[/clock] adding connection to [http://shang:43991/], count 0
+[rospy.internal][INFO] 2021-05-09 10:51:36,369: topic[/fix] adding connection to [http://shang:43991/], count 0
+[rospy.internal][WARNING] 2021-05-09 10:53:10,469: Unknown error initiating TCP/IP socket to shang:48267 (http://shang:43991/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-05-09 10:53:10,472: topic[/fix] removing connection to http://shang:43991/
+[rospy.internal][WARNING] 2021-05-09 10:53:10,473: Unknown error initiating TCP/IP socket to shang:48267 (http://shang:43991/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-05-09 10:53:10,473: topic[/clock] removing connection to http://shang:43991/
+[rospy.core][INFO] 2021-05-09 10:58:20,095: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-09 10:58:20,111: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:20,112: signal-2
+[rospy.core][INFO] 2021-05-09 10:58:20,787: signal_shutdown [atexit]
+[rospy.client][INFO] 2021-05-09 10:58:23,879: init_node, name[/kml_plotter_node], pid[5271]
+[xmlrpc][INFO] 2021-05-09 10:58:23,881: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:58:23,881: Started XML-RPC server [http://shang:42515/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:23,881: _ready: http://shang:42515/
+[rospy.registration][INFO] 2021-05-09 10:58:23,882: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:58:23,882: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:58:23,883: ROS Slave URI: [http://shang:42515/]
+[rospy.init][INFO] 2021-05-09 10:58:23,883: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:58:23,884: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-09 10:58:23,888: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:58:23,893: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:58:23,902: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-09 10:58:24,029: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-09 10:58:24,887: topic[/clock] adding connection to [http://shang:36863/], count 0
+[rospy.internal][INFO] 2021-05-09 10:59:00,566: topic[/fix] adding connection to [http://shang:36863/], count 0
+[rospy.internal][WARNING] 2021-05-09 11:01:09,594: Unknown error initiating TCP/IP socket to shang:36501 (http://shang:36863/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-05-09 11:01:09,594: topic[/fix] removing connection to http://shang:36863/
+[rospy.internal][WARNING] 2021-05-09 11:01:09,596: Unknown error initiating TCP/IP socket to shang:36501 (http://shang:36863/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-05-09 11:01:09,596: topic[/clock] removing connection to http://shang:36863/
+[rospy.core][INFO] 2021-05-09 11:01:19,535: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-09 11:01:19,551: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-05-09 11:01:19,552: signal-2
+[rospy.core][INFO] 2021-05-09 11:01:19,963: signal_shutdown [atexit]

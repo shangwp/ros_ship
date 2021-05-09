@@ -1,0 +1,45 @@
+[rospy.client][INFO] 2021-05-09 10:50:11,323: init_node, name[/wam_v/controller_spawner], pid[2746]
+[xmlrpc][INFO] 2021-05-09 10:50:11,323: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:50:11,323: Started XML-RPC server [http://shang:38271/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:11,324: _ready: http://shang:38271/
+[rospy.registration][INFO] 2021-05-09 10:50:11,325: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-09 10:50:11,325: ROS Slave URI: [http://shang:38271/]
+[rospy.init][INFO] 2021-05-09 10:50:11,325: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:50:11,325: initializing /rosout core topic
+[xmlrpc][INFO] 2021-05-09 10:50:11,326: xml rpc node: starting XML-RPC server
+[rospy.rosout][INFO] 2021-05-09 10:50:11,333: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:50:11,337: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:50:11,340: connected to core topic /clock
+[rosout][INFO] 2021-05-09 10:50:11,358: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2021-05-09 10:50:11,605: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-09 10:50:12,567: topic[/clock] adding connection to [http://shang:43991/], count 0
+[rosout][WARNING] 2021-05-09 10:50:41,371: Controller Spawner couldn't find the expected controller_manager ROS interface.
+[rospy.core][INFO] 2021-05-09 10:50:41,372: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-05-09 10:50:41,380: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-09 10:50:41,385: topic[/clock] removing connection to http://shang:43991/
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:41,385: atexit
+[rospy.client][INFO] 2021-05-09 10:58:23,901: init_node, name[/wam_v/controller_spawner], pid[5273]
+[xmlrpc][INFO] 2021-05-09 10:58:23,901: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:58:23,902: Started XML-RPC server [http://shang:45099/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:23,902: _ready: http://shang:45099/
+[rospy.init][INFO] 2021-05-09 10:58:23,902: ROS Slave URI: [http://shang:45099/]
+[rospy.registration][INFO] 2021-05-09 10:58:23,903: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:58:23,905: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:58:24,011: registered with master
+[rospy.rosout][INFO] 2021-05-09 10:58:24,011: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-09 10:58:24,014: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-09 10:58:24,015: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-09 10:58:24,019: connected to core topic /clock
+[rosout][INFO] 2021-05-09 10:58:24,022: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2021-05-09 10:58:24,130: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-09 10:58:24,845: topic[/clock] adding connection to [http://shang:36863/], count 0
+[rosout][WARNING] 2021-05-09 10:58:54,238: Controller Spawner couldn't find the expected controller_manager ROS interface.
+[rospy.core][INFO] 2021-05-09 10:58:54,239: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-05-09 10:58:54,243: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-09 10:58:54,244: topic[/clock] removing connection to http://shang:36863/
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:54,244: atexit
+[rospy.internal][WARNING] 2021-05-09 10:58:54,245: Unknown error initiating TCP/IP socket to shang:36501 (http://shang:36863/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 559, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

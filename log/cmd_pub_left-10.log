@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2021-05-09 10:50:11,240: init_node, name[/cmd_pub_left], pid[2748]
+[xmlrpc][INFO] 2021-05-09 10:50:11,240: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:50:11,240: Started XML-RPC server [http://shang:46023/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:50:11,241: _ready: http://shang:46023/
+[rospy.init][INFO] 2021-05-09 10:50:11,241: ROS Slave URI: [http://shang:46023/]
+[rospy.registration][INFO] 2021-05-09 10:50:11,241: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:50:11,243: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:50:11,341: registered with master
+[rospy.core][INFO] 2021-05-09 10:58:20,115: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:20,127: signal-2
+[rospy.core][INFO] 2021-05-09 10:58:20,259: signal_shutdown [atexit]
+[rospy.client][INFO] 2021-05-09 10:58:23,787: init_node, name[/cmd_pub_left], pid[5275]
+[xmlrpc][INFO] 2021-05-09 10:58:23,787: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-09 10:58:23,788: Started XML-RPC server [http://shang:42705/]
+[rospy.impl.masterslave][INFO] 2021-05-09 10:58:23,788: _ready: http://shang:42705/
+[rospy.init][INFO] 2021-05-09 10:58:23,789: ROS Slave URI: [http://shang:42705/]
+[rospy.registration][INFO] 2021-05-09 10:58:23,789: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-09 10:58:23,789: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-09 10:58:23,889: registered with master
+[rospy.core][INFO] 2021-05-09 11:01:19,526: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2021-05-09 11:01:19,534: signal-2
+[rospy.core][INFO] 2021-05-09 11:01:20,152: signal_shutdown [atexit]
